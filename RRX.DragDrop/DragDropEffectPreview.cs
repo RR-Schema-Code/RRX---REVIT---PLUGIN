@@ -1,0 +1,21 @@
+﻿using System.Windows;
+
+namespace RRX.DragDrop
+{
+    internal class DragDropEffectPreview : DragDropPreview
+    {
+        public DragDropEffectPreview(UIElement rootElement, UIElement previewElement, Point translation, DragDropEffects effects, string effectText, string destinationText)
+            : base(rootElement, previewElement, translation, default)
+        {
+            this.Effects = effects;
+            this.EffectText = effectText;
+            this.DestinationText = destinationText;
+        }
+
+        public DragDropEffects Effects { get; }
+
+        public string EffectText { get; }
+
+        public string DestinationText { get; }
+    }
+}

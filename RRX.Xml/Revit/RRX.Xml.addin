@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RevitAddIns>
+  <AddIn Type="Command">
+    <Name>RRX x Revit</Name>
+    <Assembly>C:\Pfad\zum\Repository\RRX.Xml\bin\Release\net10.0-windows\RRX.Xml.dll</Assembly>
+    <AddInId>91EAADE0-034F-4C58-861B-44808B01545D</AddInId>
+    <FullClassName>RRX.Xml.Revit.RrxRevitCommand</FullClassName>
+    <VendorId>RRX</VendorId>
+    <VendorDescription>RRX - Revit Schnittstelle</VendorDescription>
+  </AddIn>
+  <AddIn Type="Application">
+    <Name>RRX x Revit</Name>
+    <Assembly>C:\Pfad\zum\Repository\RRX.Xml\bin\Release\net10.0-windows\RRX.Xml.dll</Assembly>
+    <AddInId>48DC7148-81AD-4B28-9F22-4AB7F3B79DA1</AddInId>
+    <FullClassName>RRX.Xml.Revit.RrxRevitApplication</FullClassName>
+    <VendorId>RRX</VendorId>
+    <VendorDescription>RRX - Revit Schnittstelle</VendorDescription>
+  </AddIn>
+</RevitAddIns>

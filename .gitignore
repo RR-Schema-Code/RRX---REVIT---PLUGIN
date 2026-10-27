@@ -1,0 +1,13 @@
+.vs/
+**/bin/
+**/obj/
+*.csproj.user
+*.suo
+*.user
+
+# Lokale Revit- und Beispieldaten
+*.rvt
+*.ifc
+*.rrxp
+/Zentrale.xml
+/Pfade.txt
