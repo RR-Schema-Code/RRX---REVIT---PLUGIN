@@ -20,6 +20,13 @@
   </ItemGroup>
 
   <ItemGroup>
+    <None Update="LICENSE">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      <TargetPath>RRX.DragDrop.LICENSE.txt</TargetPath>
+    </None>
+  </ItemGroup>
+
+  <ItemGroup>
     <Resource Include="Icons\EffectCopy.png">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </Resource>

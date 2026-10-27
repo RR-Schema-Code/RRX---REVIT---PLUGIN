@@ -23,3 +23,7 @@ Der Standardpfad für Revit ist `C:\Program Files\Autodesk\Revit 2027\`. Bei ein
 ## Revit-Add-in einrichten
 
 Die Datei `RRX.Xml/Revit/RRX.Xml.addin` ist eine Vorlage. Nach dem Build beide `<Assembly>`-Einträge auf den **absoluten Pfad** der erzeugten `RRX.Xml.dll` ändern und die angepasste `.addin`-Datei nach `%APPDATA%\Autodesk\Revit\Addins\2027\` kopieren. Die persönliche Pfadangabe nicht zurück in das Repository übernehmen.
+
+## Lizenz
+
+`RRX.DragDrop` ist eine angepasste Fassung von [GongSolutions.WPF.DragDrop](https://github.com/punker76/gong-wpf-dragdrop). Der [BSD-3-Clause-Lizenztext](RRX.DragDrop/LICENSE) der ursprünglichen Rechteinhaber gilt für diese Komponente und muss bei der Weitergabe ihres Quellcodes oder ihrer DLL erhalten bleiben. Für den übrigen Anwendungscode ist derzeit keine eigene Lizenz festgelegt.
